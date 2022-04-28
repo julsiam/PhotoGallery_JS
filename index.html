@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ExerciseProfileGallery</title>
+
+<!-- Internal CSS -->
+    <style>
+        * {
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: url(./src/images/back.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+        .books {
+            width: 15%;
+            padding: 30px;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+
+        .container {
+            text-align: center;
+           
+        }
+         
+        .container1{
+            text-align: center;
+            border: 5px solid rgb(77, 43, 43);
+        }
+
+        .tab {
+            overflow: hidden;
+        }
+
+        .textDetails {
+            display: none;
+            padding: 6px 12px;
+            border-top: none;
+            font-size: 18px;
+        }
+
+        .textDetails.p {
+            text-align: justify;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1><u> "Favorite Wattpad Books/Stories" </u    ></h1>
+        <h3>“Reading is an exercise in empathy; an exercise in walking in someone else’s shoes for a while.” <br> - Malorie
+            Blackman</h3>
+    </div>
+
+
+    <div class="container1">
+        <div class="tab">
+            <img class="books" src="./src/images/ilys1892.jpg" onclick="openText(event, 'one')">
+            <img class="books" src="./src/images/ilya1.jpg" onclick="openText(event, 'two')">
+            <img class="books" src="./src/images/possessive1.jpeg" onclick="openText(event, 'three')">
+            <img class="books" src="./src/images/deffendmeatty.jpg" onclick="openText(event, 'four')">
+            <img class="books" src="./src/images/somethingphenomenal.jpg" onclick="openText(event, 'five')">
+
+        </div>
+    </div>
+
+<!-- Text -->
+    <div class="container">
+
+        <div id="one" class="textDetails">
+            <h3><u> I lOVE YOU SINCE 1892 </u></h3>
+            <p><b> Author: </b> Binibining Mia <br><b>Genre:</b> Romace, Historical Fiction <br><b> Language:</b>
+                Filipino, English <br><b> Status:</b> Published, Available in Wattpad <br><b> Synopsis: </b>
+                Carmelita Montecarlos was the youngest daughter of San Alfonso’s wealthiest family, while Juanito
+                Alfonso
+                was the son of the most powerful and influential gobernadorcillo. An agreement solidified their love
+                future. They were bound to fall in love, which an agreement guaranteed. They were to marry on the day
+                of
+                Carmelita’s 20th birthday.
+                However, on the day of their grand wedding, Juanito was shot. Nobody knew who had done it. Everyone
+                assumed
+                that this would be the end of their tragedy. That just like their souls, their tragic romance had gone
+                to
+                the afterlife. But fate had different plans.
+                br
+                The laws of nature will bend. After more than 104 years, Carmela, the fourth generation of the
+                Montecarlos
+                clan, will be born on a leap year — the same day Carmelita was born. A short trip to San Alfonso for
+                her
+                20th birthday will give her rebellious life a whimsical twist. Through a diary, she’ll go back in time
+                and
+                the Carmela of 2016 will meet Juanito of 1892. </p>
+        </div>
+
+        <div id="two" class="textDetails">
+            <h3><u>I LOVE YOU, ARA </u></h3>
+            <p><b> Author: </b> Jamille Fumah <br><b>Genre: </b> Mystery, Fiction <br><b>Language:</b> Filipino, English
+                <br><b>Status:</b> Published,
+                Available in Wattpad <br><b> Synopsis: </b> "Forgive her father, for she is sinned."</p>
+        </div>
+
+        <div id="three" class="textDetails">
+            <h3><u> POSSESSIVE SERIES 11: VALERIAN VOLZKI </u></h3>
+            <p><b> Author: </b> C.C <br><b> Genre: </b> Romance, SPG/R-18 <br><b> Language: </b> Filipio, English
+                <br><b> Status: </b> Published,
+                Available in Wattpad <br><b> Synopsis:</b> LUSTING over Grace Oquendo is not good for Valerian Volkzki's
+                health. He
+                should be working his ass off. He should be firing his employees who go against his will. Dapat ay
+                nagpapayaman siya imbes na i-stalk si Grace Oquendo. Lahat ng ginagawa niya ay kabaliktaran sa dapat
+                gawin
+                ng isang Valerian Volkzki. Bakit ba niya ito ginagawa? Para makita si Grace? Hell! That is so wrong in
+                his
+                vocabulary.Para mahawakan ito at pa-simpling ma-tsansingan? Fúck! Hindi siya manyak. He can bed any
+                woman
+                he Fúcking wants.Para makasama ito? Shit! Gusto niya palaging nag-iisa at ayaw niya ng isturbo. And
+                Grace
+                Oquendo screams disturbance to his life.Para maamoy ang nakakabaliw na natural na amoy nito bilang
+                isang
+                babae? Another Fúck! Kailan pa siya nabaliw sa isang amoy? He is so fúcked up.O para maakit niya ito at
+                maangkin? Hmm... well... And to top of it all, may lahing hapon at espanyol ang dalaga. Another holy
+                Fúck!
+                Hindi siya papatol sa may lahing hapon at espanyol! But can he stop his manhood from having an erection
+                every time Grace is near? If he can't stop his massive erection, disaster will strike in the name of
+                Lust
+                and Cupid</p>
+        </div>
+        <div id="four" class="textDetails">
+            <h3><u> DEFEND ME, ATTORNEY </u></h3>
+            <p><b> Author: </b> Josh Gonzales <br><b>Genre: </b> Law, Romance<br><b> Language: </b> Filipino, English
+                <br><b> Status:</b> Published,
+                Available in Wattpad <br><b> Synopsis: </b> "If pleading guilty means protecting you, I will." </p>
+        </div>
+
+        <div id="five" class="textDetails">
+            <h3><u> SOMETHING SPECTACULAR </u></h3>
+            <p><b> Author: </b> April Avery <br><b>Genre: </b> Romance<br><b> Language: </b> Filipino, English <br><b>
+                    Status:</b> Published,
+                Available in Wattpad <br><b>Synopsis: </b>  This story is about family, friendship, and discovering yourself in
+                the
+                midst of society's expectations that turn us into something we are not. Since time is fleeting, this is
+                a
+                tale about appreciating what we have now.</p>
+        </div>
+    </div>
+
+
+
+<!-- Internal JS Script -->
+
+    <script>
+        function openText(evt, sequence) {
+            var i, textDetails, books;
+            textDetails = document.getElementsByClassName("textDetails");
+            for (i = 0; i < textDetails.length; i++) {
+                textDetails[i].style.display = "none";
+            }
+            books = document.getElementsByClassName("books");
+            for (i = 0; i < books.length; i++) {
+                books[i].className = books[i].className.replace(" active", "");
+            }
+            document.getElementById(sequence).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+    
+</body>
+</html>
